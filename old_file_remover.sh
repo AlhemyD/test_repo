@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the directory to search in and the days threshold
-directory="/path/to/directory"
+directory=$1
 days_threshold=30
 
 # Store the output of the find command in a variable
